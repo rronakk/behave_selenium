@@ -1,1 +1,4 @@
 .idea
+**.cache
+# Mac OS files
+.DS_Store

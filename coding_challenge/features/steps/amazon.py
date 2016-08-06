@@ -23,12 +23,13 @@ def step_imp(context, search_item):
 @then(u'Total number of search result is a positive integer')
 def step_imp(context):
     br = context.browser
+    # check if the search result matches the regex defined.
     assert re.search(r'[\w\s,-]+', br.find_element_by_id("s-result-count").text)
 
 @then(u'No search result should be displayed')
 def step_imp(context):
     br = context.browser
-
+    # current page just refresh, when user just click submit
     assert "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more" in br.title
 
 
