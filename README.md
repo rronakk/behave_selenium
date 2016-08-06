@@ -3,7 +3,7 @@ Sample Automated test using behave and selenium
 ### Table of Contents
 - [Introduction: Installation and Dependencies](#introduction)
 - [Running Tests](#running-tests)
-- [Future Improvement](#future)
+- [Future Improvements](#future-improvement)
 
 
 ## <a name="introduction"></a>Introduction: Installation and Dependencies
@@ -41,7 +41,8 @@ e.g :
 ```
 behave amazon.feature
 ```
-## <a name="#future"></a>Future Improvement
+## <a name="#future-improvement"></a>Future Improvements
+
 - Make use of page object model.
 - seperate out locator startegies of web element into a seperate file, to make tests easy to maintain.
 - Adding more logging, making it easier to debug.
